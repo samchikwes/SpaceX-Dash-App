@@ -101,4 +101,4 @@ def get_scatter_chart(entered_site, payload_slider):
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server()
+    app.run(debug=True, use_reloader=False)
